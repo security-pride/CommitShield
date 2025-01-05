@@ -7,7 +7,7 @@ In the VID file, we cleaned the data in the V-SZZ algorithm and obtained data co
 
 # launch
 To make our tool as easy to run as possible, you can obtain the GitHub API key from GitHub; Obtain the LLM API key from the deep seek official website. And replace the corresponding tokens in the file. Execute the following command:
-python vul_fix_check.py
-python vul_intro_check.py
+  python vul_fix_check.py
+  python vul_intro_check.py
 
 # citation
