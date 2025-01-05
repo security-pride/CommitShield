@@ -7,7 +7,8 @@ A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Syst
 
 # launch
 To make our tool as easy to run as possible, you can obtain the GitHub API key from GitHub; Obtain the LLM API key from the deep seek official website. And replace the corresponding tokens in the file. Execute the following command:
--`python vul_fix_check.py`
--`python vul_intro_check.py`
+`python vul_fix_check.py`
+`python vul_intro_check.py`
 
 # citation
+If you reference our work or use our tools, the reference information is as follows:
