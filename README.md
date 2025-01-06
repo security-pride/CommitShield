@@ -6,15 +6,15 @@ A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Syst
 - In the VID file, we cleaned the data in the V-SZZ algorithm and obtained data containing 284 vulnerabilities introduced.
 
 # launch
--To make our tool as easy to run as possible, you can obtain the GitHub API key from GitHub;  
--Obtain the LLM API key from the deep seek official website. And replace the corresponding tokens in the file. Execute the following command:
+- To make our tool as easy to run as possible, you can obtain the GitHub API key from GitHub;  
+- Obtain the LLM API key from the deep seek official website. And replace the corresponding tokens in the file. Execute the following command:
 `python vul_fix_check.py`
 `python vul_intro_check.py`
 
 # citation
 If you reference our work or use our tools, the reference information is as follows:  
-@unpublished{author:2025,  
+```@unpublished{author:2025,  
   author = {Zhaonan, Wu. and Yanjie, Zhao. and Chen, Wei. and Zirui, Wan. and Yue, Liu. and Haoyu, Wang.},  
   title = {CommitShield: Tracking Vulnerability Introduction and Fix in Version Control Systems},  
   year = {2024}  
-}
+}```
