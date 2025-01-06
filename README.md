@@ -11,6 +11,27 @@ A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Syst
 `python vul_fix_check.py`
 `python vul_intro_check.py`
 
+# evaluation
+The effectiveness of CommitShield in VFD:  
+| Approach    | Model    | Parameter Size | Precision | Recall | F1-score |
+|-------------|----------|----------------|-----------|--------|----------|
+| Baseline    | Deep-Seek| 236B           | 0.62      | 0.94   | 0.75     |
+| VulFixMiner | CodeBert | 125M           | 0.58      | 0.22   | 0.32     |
+| VulCurator  | CodeBert | 125M           | 0.62      | 0.19   | 0.29     |
+| CommitShield| Deep-Seek| 236B           | 0.81      | 0.96   | 0.88     |
+
+The effectiveness of CommitShield in VID:  
+| Approach    | Precision| Recall         | F1-score  |
+|-------------|----------|----------------|-----------|
+| V-SZZ       | 0.52     | 0.79           | 0.63      |
+| AG-SZZ      | 0.49     | 0.63           | 0.55      |
+| B-SZZ       | 0.46     | 0.67           | 0.55      |
+| L-SZZ       | 0.55     | 0.47           | 0.51      |
+| MA-SZZ      | 0.43     | 0.63           | 0.51      |
+| R-SZZ       | 0.69     | 0.59           | 0.64      |
+| CommitShield| 0.74     | 0.82           | 0.78      |
+
+
 # citation
 If you reference our work or use our tools, the reference information is as follows:  
 ```
