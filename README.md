@@ -13,8 +13,8 @@ A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Syst
 
 # citation
 If you reference our work or use our tools, the reference information is as follows:  
-@unpublished{author:2025,
-  author = {Zhaonan, Wu. and Yanjie, Zhao. and Chen, Wei. and Zirui, Wan. and Yue, Liu. and Haoyu, Wang.},
-  title = {CommitShield: Tracking Vulnerability Introduction and Fix in Version Control Systems},
-  year = {2024}
+@unpublished{author:2025,  
+  author = {Zhaonan, Wu. and Yanjie, Zhao. and Chen, Wei. and Zirui, Wan. and Yue, Liu. and Haoyu, Wang.},  
+  title = {CommitShield: Tracking Vulnerability Introduction and Fix in Version Control Systems},  
+  year = {2024}  
 }
