@@ -1,5 +1,5 @@
-# CommitShield
-A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Systems
+# CommitShield: A Tool for Tracking Vulnerability Introduction and Fixes in Version Control Systems
+Version control systems are commonly used to manage open-source software, in which each commit may introduce new vulnerabilities or fix existing ones. Researchers have developed various tools for detecting vulnerabilities in code commits, but their performance is limited by factors such as neglecting descriptive data and challenges in accurately identifying vulnerability introductions. To overcome these limitations, we propose COMMITSHIELD, which combines the code analysis capabilities of static analysis tools with the natural language and code understanding capabilities of large language models (LLMs) to enhance the accuracy of vulnerability introduction and fix detection by generating precise descriptions and obtaining rich patch contexts. We evaluate COMMITSHIELD using the newly constructed vulnerability repair dataset, CommitVulFix, and a cleaned vulnerability introduction dataset. Experimental results indicate that COMMITSHIELD improves recall by 74%-77% over state-of-the-art methods in the vulnerability fix detection task, and its F1-score improves by 15%-27% in the vulnerability introduction detection task.
 
 # datasets
 - In the VFD file, we collected 681 vulnerability fix data and 1118 non-vulnerability fix data.
